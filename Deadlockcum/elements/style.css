@@ -1,0 +1,44 @@
+.fon{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 450px;
+    right: 1500px;
+}
+.fon {
+    transition: 1s; 
+   }
+.fon:hover {
+    transform: scale(1.2); 
+   }
+.photos{
+    width: 1920px;
+    height: 1000px;
+}
+.image-hover {
+    background-image: url('grey.png'); /* Исходное изображение */
+    width:130px; /* Ширина блока */
+    height: 54px; /* Высота блока */
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+.image-hover:hover {
+    background-image: url('green.png'); /* Изображение при наведении */
+}
+.menu{
+    background-color: rgb(2, 167, 2);
+    position: absolute;
+    width: 1900px;
+    height: 50px;
+}
+.open{
+    position: absolute;
+    background-color: rgb(233, 159, 0);
+    top: 15px;
+    left: 30px;
+    width: 90px;
+    border-radius: 30%;
+    font-family: 'Montserrat', sans-serif;
+}
